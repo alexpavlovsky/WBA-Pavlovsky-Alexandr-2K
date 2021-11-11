@@ -1,0 +1,105 @@
+h1{
+    color: #1FFF00;
+    text-align: right;
+    font: italic;
+    font-size: xx-large;
+}
+
+.random{
+    color: rgb(137, 30, 236);
+    text-align: center;
+    font-size: small;
+    font: lighter;
+}
+
+p.right{
+    color: cyan;
+    text-align: right;
+    font-size: medium;
+    font: 100;
+}
+
+h2.right{
+    color: slateblue;
+    text-align: right;
+    font-size: larger;
+    font: 200;
+}
+
+.small{
+    font-size: small;
+}
+
+.left{
+    text-align: left;
+}
+
+.green{
+    color: green;
+}
+
+h3, h4{
+    color: indigo;
+    text-align: center;
+    font-size: larger;
+    font: message-box;
+}
+
+h5::first-letter{
+    color: magenta;
+    font-variant: inherit;
+}
+
+h5{
+    color: lawngreen;
+    font-size: larger;
+    font: 600;
+    text-align: initial;
+}
+
+p.line::first-line{
+    color: limegreen;
+    font-size: inherit;
+    font: status-bar;
+    text-align: end;
+}
+
+.pink{
+    color: rgb(245, 2, 212);
+}
+
+.blue{
+    color: rgb(0, 132, 255);
+}
+
+::selection{
+    color: red;
+    background: greenyellow;
+}
+
+a:link{
+    color: grey;
+}
+
+a:visited{
+    color: navy;
+}
+
+a:hover{
+    color: orangered;
+}
+
+a:active{
+    color: mediumvioletred;
+}
+
+.a{
+    color: goldenrod;
+    font-size: 500;
+    font: small-caption;
+    text-align: center;
+}
+
+html{
+    background-color: black;
+}
