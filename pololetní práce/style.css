@@ -1,154 +1,202 @@
 body {
-    background-image: url("kids-doodles_1108-181.webp");
+  background-image: url("kids-doodles_1108-181.webp");
 }
 
 .top {
-    width: 100vw;
-    height: 35vh;
-    align-items: center;
-    display: flex;
-    margin-top: auto;
+  width: 100%;
+  height: 35vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
 }
 
 .intop {
-    width: 60%;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
+  width: 60%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .title {
-    width: 100%;
-    height: 80%;
-    align-items: center;
-    display: flex;
-    margin-bottom: auto;
+  width: 100%;
+  height: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
 }
 
 .title1 {
-    width: 70%;
-    height: 100%;
-    flex-direction: column;
-    background-color: rgba(30, 143, 255, 0.459);
-    border-radius: 20px;
+  width: 70%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(30, 143, 255, 0.781);
+  border-radius: 20px;
 }
 
 .logo {
-    width: 25%;
-    height: 100%;
-    background-image: url("79368773_455570938677853_4556502281448587264_n.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.logo1 {
-    width: 25%;
-    height: 100%;
-    background-image: url("79368773_455570938677853_4556502281448587264_n.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 25%;
+  height: 100%;
+  background-image: url("79368773_455570938677853_4556502281448587264_n.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu {
-    width: 100%;
-    height: 20%;
-    align-items: center;
-    display: flex;
-    margin-top: auto;
-    gap: 50px;
-    justify-content: center;
-    position: sticky;
+  width: 100%;
+  height: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .toppicture {
-    background-image: url("jonathan-borba-CgWTqYxHEkg-unsplash1.jpg");
-    width: 100vw;
-    height: 40vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("jonathan-borba-CgWTqYxHEkg-unsplash1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-    font-size: xx-large;
-    text-align: center;
+  font-size: xx-large;
+  text-align: center;
 }
 
 .text {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: auto;
-    width: 100vw;
-    height: 210vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  width: 100vw;
+  height: 210vh;
 }
 
 .intext {
-    align-items: center;
-    display: flex;
-    width: 90%;
-    height: 95%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 95%;
 }
 
 .left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .lefttext {
-    background-color: rgba(30, 143, 255, 0.781);
-    width: 95%;
-    height: 100%;
-    border-radius: 20px;
+  background-color: rgba(30, 143, 255, 0.781);
+  width: 95%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 .righttext {
-    background-color: rgba(30, 143, 255, 0.781);
-    width: 95%;
-    height: 100%;
-    justify-content: right;
-    display: flex;
-    border-radius: 20px;
+  background-color: rgba(30, 143, 255, 0.781);
+  width: 95%;
+  height: 100%;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
 }
 
 .righttextinter {
-    width: 80%;
-    height: 98%;
-    align-items: center;
-    justify-content: left;
+  width: 80%;
+  height: 98%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 a {
-    color: rgb(85, 0, 0);
+  color: #550000;
 }
 
 .redtext {
-    color: rgb(175, 0, 0);
+  color: #af0000;
 }
 
 h2 {
-    font-size: x-large;
-    text-align: left;
+  font-size: x-large;
+  text-align: left;
 }
 
 .rightnadpis {
-    width: 100%;
-    height: 8%;
+  width: 100%;
+  height: 8%;
 }
 
 .days {
-    width: 12%;
-    height: 10%;
+  width: 12%;
+  height: 10%;
 }
+/*# sourceMappingURL=style.css.map */
